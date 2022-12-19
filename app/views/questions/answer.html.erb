@@ -1,0 +1,19 @@
+<div class="d-flex flex-column">
+  <div class="card" style="width:100%">
+    <div class="card-body p-4">
+      <p><%= @question %></p>
+      <footer class="blockquote-footer">You</footer>
+    </div>
+  </div>
+
+  <div class="card" style="width:100%">
+    <div class="card-body p-4">
+      <p><%= @answer %></p>
+      <footer class="blockquote-footer">Your coach</footer>
+    </div>
+  </div>
+
+  <div class="p-2 bg-light">
+    <%= link_to "Ask a new question :D", "/ask" %>
+  </div>
+</div>
